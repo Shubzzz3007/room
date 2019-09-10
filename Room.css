@@ -1,0 +1,714 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    border-top: 4px solid #d44139;
+}
+nav ul li a{
+        font-size: 18px;
+        font-weight: 500;
+        margin-right: 4rem;
+}
+nav ul li :hover
+{
+    color: #d44139 !important;
+}
+nav ul li a span
+{
+    color: #d44139;
+}
+.logo{
+    height: 40px;
+}
+.logo2{
+    height: 40px;
+}
+.bg-light{
+    background-color: #fff !important;
+}
+
+@media all and (max-width:600px){
+    .logo{
+    padding-right:10em;
+    }
+    .logo2{
+    height: 40px;
+        padding-left: 0.5em;
+    
+}
+}
+
+.main-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+/* main table*/
+
+.heading h3{
+    font-size: 35px;
+  margin-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.heading2{
+    padding: 10px;
+    padding-right: 3px;
+   
+}
+.imageposition{
+    padding-left: 20%;
+    padding-bottom: 35px;
+}
+.col-12 mbr-text mbr-fonts-style display-7 col-md-4{
+    
+}
+#content14-f{
+  
+}
+
+/* product*/
+.pimage img {
+    
+    
+}
+
+.work img {
+    box-shadow: 1px 5px 7px 3px #BBB;
+   height: 23em;
+    width: 100%;
+
+
+}
+@media only screen and (max-width: 600px)
+{
+    .work img {
+    box-shadow: 1px 5px 7px 3px #BBB;
+   height: 10em;
+    width: 100%;
+
+
+}
+}
+.index-banner{
+    width: 100%;
+    height: 45vh;
+    background-image: url("hero-back.jpg");
+    background-repeat: no-repeat;
+    background-position: 0% 15%;
+    background-size: cover;
+    display: table;
+}
+ 
+.box{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.index-banner h2{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    color: black;
+    
+}
+.index-banner h1{
+    font-size: 15px;
+    font-weight: 100;
+    text-align: center;
+    text-shadow: 2px 2px 8px #111;
+    color: #fff;
+}
+
+.mybutton{
+    border-radius: 50px;
+    background-color: #111;
+    color: white;
+    padding: 8px 10px 8px 10px; 
+    font-size: 10px;
+    font-weight: 500px;
+    border: none;
+    letter-spacing: 4px;
+    margin-top: 0.3rem;
+    transition: transform .3s ;
+}
+.mybutton:hover{
+    transform: scale(1.1);
+}
+.index-banner-1{
+    width: 100%;
+    height: 33vh;
+    background-image: url("banner_comfort.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 2px;
+
+}
+.grid{
+    text-align: center;
+}
+
+.index-banner-1 h2{
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    text-shadow: 2px 2px 8px #111;
+    color: #fff;
+    letter-spacing: 7px;
+    padding-top: 1rem;
+}
+.buttonh3{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 2px;
+    line-height: 1.5rem;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    position:relative; 
+    transition: 0.5s;
+    -webkit-transition:0.5s;
+}
+
+.buttonh3:hover
+{
+   background-color: transparent;
+   border-color: transparent;
+   color: #000000;
+}
+
+.buttonh3:hover:before{
+   transition-delay: .2s; 
+}
+  
+  
+.buttonh3:before{
+   width: 0%;
+   height:100%;
+   z-index: 3;
+   content:'';
+   position: absolute;
+   bottom:-1px; 
+   left:0; 
+   box-sizing: border-box;
+   transition: .2s;
+}
+                
+.buttonh3:hover:before 
+{ 
+   width: 100% !important;
+   transition: .7s;
+}
+
+.buttonh3:before {
+   border-bottom: 2px solid #000000;
+}
+
+
+.buttonh4{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 2px;
+    line-height: 1.5rem;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    position:relative; 
+    transition: 0.5s;
+    -webkit-transition:0.5s;
+}
+.buttonh4:hover
+{
+   background-color: transparent;
+   border-color: transparent;
+   color: #000000;
+}
+
+.buttonh4:hover:before{
+    transition-delay: .2s; 
+}
+  
+  
+.buttonh4:before{
+    width: 0%;
+    height:100%;
+    z-index: 3;
+    content:'';
+    position: absolute;
+    bottom:-1px; 
+    left:0;
+    box-sizing: border-box;
+    transition: .2s;
+}
+                
+.buttonh4:hover:before 
+{ 
+    width: 100% !important;
+    transition: .7s;
+}
+
+.buttonh4:before {
+    border-bottom: 2px solid #000000;
+}
+
+
+.mybutton1{
+    border-radius: 50px;
+    background-color: whitesmoke;
+    color: #d44139;
+    padding: 8px 10px 8px 10px; 
+    font-size: 10px;
+    font-weight: 500px;
+    border: none;
+    letter-spacing: 4px;
+    margin-top: 0.3rem;
+    text-align: center;
+    transition: transform .3s;
+}
+.mybutton1:hover{
+    transform: scale(1.1);
+}
+
+
+.index-banner-2{
+    width: 100%;
+    height: 50vh;
+    background-image: url("Layer-8.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+    margin-top: 2px;
+    display: table;
+}
+.box-2{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.index-banner-2 h2{
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    color: #d44139;
+   
+}
+.index-banner-2 h3{
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    color: black;
+    letter-spacing: 5px;
+}
+.index-banner-2 h4{
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    color: black;
+   
+}
+.mybutton2{
+    border-radius: 50px;
+    background-color: black;
+    color: whitesmoke;
+    padding: 8px 10px 8px 10px; 
+    font-size: 10px;
+    font-weight: 500px;
+    border: none;
+    letter-spacing: 4px;
+    margin-top: 0.3rem;
+    transition: transform .3s;
+}
+.mybutton2:hover{
+    transform: scale(1.1);
+}
+.index-banner-3{
+    width: 100%;
+    height: 50vh;
+    background-image: url("Layer-216.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    display: table;
+    margin-top: 2px;
+    display: table;
+}
+.box-3{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.index-banner-3 h2{
+    font-size:25px;
+    font-weight: 400;
+    text-align: center;
+   
+}
+.index-banner-3 h4{
+    font-size: 13px;
+    font-weight: 500;
+    text-align: center;
+    color: black;
+    margin-left: 3px;
+    margin-right: 3px;
+   
+}
+.mybutton3{
+    border-radius: 50px;
+    background-color:#d44139;
+    color: whitesmoke;
+    padding: 8px 10px 8px 10px; 
+    font-size: 10px;
+    font-weight: 500px;
+    border: none;
+    letter-spacing: 4px;
+    margin-top: 0.3rem;
+    transition: transform .3s;
+}
+.mybutton3:hover{
+    transform: scale(1.1);
+}
+
+
+@media only screen and (min-width: 768px) {
+    .index-banner{
+        height: 600px;
+        background-position: 0% 15%;
+    }
+
+    .box{
+        text-align: left;
+        margin-left: 15%;
+        margin-bottom:17%;
+    }
+
+    .index-banner h2{
+        font-size: 45px;
+        font-weight: 600;
+        text-align: left;
+        color: black;
+        margin-left: 15%;
+        
+    }
+    .index-banner h1{
+        font-size: 20px;
+        font-weight: 400;
+        text-align: left;
+        color: whitesmoke;
+        margin-left: 15%;
+        
+    }
+    
+    .mybutton{
+        height: 50px;
+        width: 200px; 
+        font-size: 15px;
+        margin-top: 0.5rem;
+        margin-left: 15%;
+        margin-bottom:17%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .index-banner-1{
+        width: 100%;
+        height: 350px;
+        background-image: url("banner_comfort.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin-top: 1px;
+    }
+
+    .grid{
+        text-align: unset;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: 
+        "item1 item1 item4"
+        "item2 item3 ."
+    }
+
+    
+    .item1{
+        grid-area: item1;
+    }
+
+    .item2{
+        grid-area: item2;
+    }
+    
+    .item3{
+        grid-area: item3;
+    }
+    
+    .item4{
+        grid-area: item4;
+    }
+    
+    
+    
+    .index-banner-1 h2{
+        font-size: 35px;
+        font-weight: 300;
+        text-align: unset;
+        margin-top: 8.7rem;
+        margin-left: 14rem;
+        letter-spacing: 12px;
+    }
+    
+    .buttonh3{
+        font-size: 14px;
+        font-weight: 400;
+        text-align: unset;
+        grid-area: buttonh3;
+        margin-left: 14rem;
+    }
+    
+    .buttonh4{
+        font-size: 14px;
+        font-weight: 400;
+        text-align: unset;
+        grid-area: buttonh4;
+        
+    }
+    .mybutton1{
+        height: 40px;
+        width: 180px; 
+        font-size: 15px;
+        font-weight: 500px;
+        margin-top: 0.3rem;
+        text-align: center;
+        margin-top: 10rem;
+    }
+
+
+}
+
+@media only screen and (min-width: 768px) {
+    .index-banner-2{
+        width: 100%;
+        height: 800px;
+        background-image: url("Layer-8.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0% 50%;
+        display: table;
+        margin-top: 2px;
+        display: table;
+    }
+    .box-2{
+    text-align: center;
+    margin-right:40%;
+    margin-bottom: 10%; 
+
+}
+    .index-banner-2 h2{
+        font-size: 70px;
+        font-weight: 500;
+        text-align: center;
+        margin-right:40%;
+    }
+    .index-banner-2 h3{
+        font-size: 35px;
+        text-align: center;
+        letter-spacing: 12px;
+        margin-right:40%; 
+    }
+    .index-banner-2 h4{
+        font-size: 20px;
+        text-align: center;
+        margin-right:40%;
+       
+    }
+    .mybutton2{
+        height: 50px;
+        width: 200px;
+        font-size: 15px;
+        margin-top: 0.5rem;
+        margin-right:40%; 
+        margin-bottom: 10%;
+
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+    .index-banner-3{
+        width: 100%;
+        height: 700px;
+        background-image: url("Layer-216.png");
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+        display: table;
+        margin-top: 2px;
+        display: table;
+    }
+    .box-3{
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        margin-bottom: 15%;
+    }
+    .index-banner-3 h2{
+        font-size:55px;
+        font-weight: 400;
+        text-align: center;
+       
+    }
+    .index-banner-3 h4{
+        font-size: 20px;
+        font-weight: 400;
+        text-align: center;
+        width: 900px;
+        margin: 0 auto;
+        line-height: 30px;
+       
+    }
+    .mybutton3{
+        height: 50px;
+        width: 200px;
+        font-size: 15px;
+        margin-top: 0.5rem;
+        margin-bottom: 15%;
+    }
+}
+
+
+/*FOOTER*/
+footer {
+     width: 100%;
+     height: 30vh;
+     padding: 40px 40px;
+     background-color: #1d262d;
+     margin-top: 2px;
+     overflow: hidden;
+}
+footer ul{
+    width: 100%;
+    padding-left: 5px; 
+} 
+footer ul li{
+   display: block;
+   list-style: none; 
+} 
+footer ul li a {
+   font-size: 12px;
+   color: #fff;
+   line-height: 32.5px;
+   text-decoration: none !important;
+ 
+} 
+footer ul li a:hover
+{
+    color: #d44139;
+}
+.part4 a img{
+    margin: 5px;
+}
+.material-icons{
+    font-size : 40px !important;
+    color : #d44139;
+    padding-top: 10px;
+}
+.office{
+    color: whitesmoke;
+    letter-spacing: 5px;
+}
+.address{
+    color: white !important;
+}
+.follow{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 5px;
+    width: 100%;
+
+}
+.part4{  
+    width: 30px;
+    margin-left: 15px;
+    
+}
+.part4 img {
+    width: 100%;
+}
+.foot{
+
+    display: grid;
+    grid-template-columns: 30% 35% 35%;
+    grid-template-areas: 
+    "part1 part2 part4"
+}
+.part3
+{
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    footer {
+        height: 40vh;
+   }
+   footer ul{
+       width: fit-content;
+       padding-left: 5px; 
+   } 
+   footer ul li{
+      display: block;
+      list-style: none; 
+   } 
+   footer ul li a {
+      font-size: 18px;
+      color: #fff;
+      line-height: 47px;
+    
+   } 
+   .part3 input{
+       width: 100%;
+   
+   }
+   .part3 a button{
+       width: 100%;
+   }
+   .follow{
+    font-size: 20px;
+
+}
+   .part4{  
+       width: 48px;
+       grid-area: part4;
+       
+   }
+
+   .foot{
+   
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr 1fr;
+       grid-template-rows: 
+       grid-template-areas : 
+       "part1 part2 part3 part4;
+   }
+   .part3
+   {
+       display: unset;
+   }
+}
+.copyright{
+    color: #9c9c9c;
+    background-color: #1d262d;
+    letter-spacing: 2px;
+    font-size: 8px;
+    text-align: center;
+    padding-bottom: 5px;
+}
